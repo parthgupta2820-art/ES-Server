@@ -1,0 +1,16 @@
+# Installed packages
+node_modules/
+
+# Local secrets
+.env
+
+# Temporary vehicle images (keep the folder, not the files)
+uploads/*
+!uploads/.gitkeep
+
+# Logs and OS files
+*.log
+.DS_Store
+
+# Optional test/coverage output
+coverage/

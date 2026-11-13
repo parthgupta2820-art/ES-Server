@@ -1,0 +1,33 @@
+{
+  "name": "smart-gate-backend",
+  "version": "1.0.0",
+  "description": "Simple AI-based ANPR smart gate HTTP backend for ESP32-CAM devices",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "mock-ai": "node mock-ai-server.js"
+  },
+  "keywords": [
+    "anpr",
+    "esp32",
+    "smart-gate",
+    "express",
+    "mongodb"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.21.1",
+    "dotenv": "^18.0.10",
+    "express": "^4.22.3",
+    "mongoose": "^9.12.1",
+    "multer": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
